@@ -1,10 +1,9 @@
 def square_array(array)
   
-  index = 0
+  new_numbers = []
   array.each do |numbers|
-    num = numbers * numbers
-    array[index] = num
-    index += 1
+    new_numbers << numbers * numbers
   end
   
+  new_numbers
 end
